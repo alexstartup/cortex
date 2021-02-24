@@ -179,7 +179,7 @@ var GCPCoreConfigStructFieldValidations = []*cr.StructFieldValidation{
 	{
 		StructField: "ImageClusterAutoscaler",
 		StringValidation: &cr.StringValidation{
-			Default:   "quay.io/cortexlabs/cluster-austoscaler:" + consts.CortexVersion,
+			Default:   "quay.io/cortexlabs/cluster-autoscaler:" + consts.CortexVersion,
 			Validator: validateImageVersion,
 		},
 	},
